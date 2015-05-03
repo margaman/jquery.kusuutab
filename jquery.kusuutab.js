@@ -13,6 +13,7 @@
     }
     
     function Kusuutab(elem, settings) {
+        // element
         this.elem = elem;
         this.settings = $.extend({}, defaults, settings); 
         this.init();
